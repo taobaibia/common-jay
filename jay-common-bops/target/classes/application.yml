@@ -1,0 +1,32 @@
+server:
+  port: 8099
+
+
+## 配置在nacos中这里仅供本地调试使用
+#tulips:
+#  common:
+#    domain: http://127.0.0.1:8081
+#  urp:
+#    domain: http://127.0.0.1:9090
+#  product:
+#    domain: http://67466-property-product.test.za-tech.net
+#  search:
+#    domain: http://72579-zat-property-search.test.za-tech.net
+#  integration:
+#    domain: http://73008-property-integration.test.za-tech.net
+#  proposal:
+#    domain: http://73566-property-proposal.test.za-tech.net
+
+#document:
+#  endorsement:
+#    templates:
+#      - templateCode: aabb01
+#        templateName: 批单测试打印模版1
+#        documentCode: ffff01
+#        internalUrl: http://www.baidu.com
+#        externalUrl: http://www.qq.com
+#      - templateCode: aabb
+#        templateName: 批单测试打印模版2
+#        documentCode: cc02
+#        internalUrl: http://www.baidu.com
+#        externalUrl: http://www.qq.com

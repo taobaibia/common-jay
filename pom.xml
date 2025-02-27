@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>common-jay</artifactId>
+    <groupId>org.common.jay</groupId>
+    <packaging>pom</packaging>
+    <!-- 修改版本号为标准格式 -->
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>jay-common-bops</module>
+        <module>jay-common-share</module>
+        <module>jay-common</module>
+    </modules>
+
+    <properties>
+        <!-- 只保留一个 project.build.sourceEncoding 定义 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <guava.version>31.1-jre</guava.version>
+        <!-- 修改版本号为标准格式 -->
+        <jay-common-share.version>1.0-SNAPSHOT</jay-common-share.version>
+        <jdk.version>1.8</jdk.version>
+
+        <!-- ========================================================== -->
+        <spring.version>5.2.10.RELEASE</spring.version>
+        <spring-boot.version>2.3.5.RELEASE</spring-boot.version>
+        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
+        <spring-data-redis.version>2.3.5.RELEASE</spring-data-redis.version>
+        <commons-lang3.version>3.11</commons-lang3.version>
+        <commons-lang.version>2.5</commons-lang.version>
+        <commons-fileupload.version>1.4</commons-fileupload.version>
+        <commons-io.version>2.5</commons-io.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
+        <commons-collections4.version>4.1</commons-collections4.version>
+        <springfox.version>2.8.0</springfox.version>
+        <jackson.version>2.10.5</jackson.version>
+        <org.json.version>20140107</org.json.version>
+        <json-lib.version>2.4</json-lib.version>
+        <openfeign-form.version>3.8.0</openfeign-form.version>
+        <mapstruct.version>1.4.2.Final</mapstruct.version>
+        <jedis.version>3.3.0</jedis.version>
+        <zookeeper.version>3.6.0</zookeeper.version>
+        <curator.version>5.1.0</curator.version>
+        <mybatis.version>3.5.9</mybatis.version>
+        <mybatis-spring.version>2.0.6</mybatis-spring.version>
+        <spring-cloud-starter-openfeign>2.2.6.RELEASE</spring-cloud-starter-openfeign>
+
+    </properties>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- spring -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-openfeign</artifactId>
+                <version>${spring-cloud-starter-openfeign}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-tx</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-orm</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!--service name-->
+
+            <dependency>
+                <groupId>org.common.jay</groupId>
+                <artifactId>jay-common-share</artifactId>
+                <version>${jay-common-share.version}</version>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
+
+    <profiles>
+        <profile>
+            <id>jdk1_8</id>
+            <properties>
+                <!-- 修改为已定义的属性 -->
+                <maven.compiler.source>${jdk.version}</maven.compiler.source>
+                <maven.compiler.target>${jdk.version}</maven.compiler.target>
+                <maven.compiler.compilerVersion>${jdk.version}</maven.compiler.compilerVersion>
+            </properties>
+        </profile>
+    </profiles>
+
+    <distributionManagement>
+        <!--
+        <snapshotRepository>
+            <id>zhongan-snapshots</id>
+            <name>zhongan-snapshots</name>
+            <url>http://mvnrepos.zhonganonline.com/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        -->
+    </distributionManagement>
+
+</project>
