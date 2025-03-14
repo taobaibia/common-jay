@@ -1,0 +1,37 @@
+spring:
+  profiles:
+    active: dev
+
+
+
+
+#
+#  nacos.config.bootstrap.enable=true
+#
+#  # 主配置服务器地址
+#  nacos.config.server-addr=192.168.16.104:8848
+#  # 主配置 data-id
+#  nacos.config.data-id=people
+#  # 主配置 group-id
+#  nacos.config.group=DEFAULT_GROUP
+#  # 主配置 配置文件类型
+#  nacos.config.type=properties
+#  # 主配置 最大重试次数
+#  nacos.config.max-retry=10
+#  # 主配置 开启自动刷新
+#  nacos.config.auto-refresh=true
+#  # 主配置 重试时间
+#  nacos.config.config-retry-time=2333
+#  # 主配置 配置监听长轮询超时时间
+#  nacos.config.config-long-poll-timeout=46000
+#  # 主配置 开启注册监听器预加载配置服务（除非特殊业务需求，否则不推荐打开该参数）
+#  nacos.config.enable-remote-sync-config=true
+#
+#  nacos.config.ext-config[0].data-id=test
+#  nacos.config.ext-config[0].group=DEFAULT_GROUP
+#  nacos.config.ext-config[0].max-retry=10
+#  nacos.config.ext-config[0].type=yaml
+#  nacos.config.ext-config[0].auto-refresh=true
+#  nacos.config.ext-config[0].config-retry-time=2333
+#  nacos.config.ext-config[0].config-long-poll-timeout=46000
+#  nacos.config.ext-config[0].enable-remote-sync-config=true

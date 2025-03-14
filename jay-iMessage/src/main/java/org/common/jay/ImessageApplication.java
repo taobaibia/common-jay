@@ -1,0 +1,49 @@
+package org.common.jay;
+
+import org.common.jay.startBusiness.api.StreamiMessageApi;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.PostConstruct;
+import java.util.TimeZone;
+
+/**
+ * @author Jay
+ * @version V1.0
+ * @Package org.common.jay
+ * @date ${DATE} ${TIME}
+ */
+@SpringBootApplication
+@ImportResource({ "classpath*:/**/spring/*.xml" })
+@EnableFeignClients(basePackages = { "com.*" })
+@EnableAsync
+@RestController
+@ComponentScan(basePackages = { "com.*", "com.*.*" })
+public class ImessageApplication {
+    public static void main(String[] args) {
+        TimeZone.setDefault(TimeZone.getTimeZone("GMT+8"));
+        SpringApplication.run(ImessageApplication.class, args);
+        System.out.println(" ██ ████     ████                                                  \n" +
+                "░░ ░██░██   ██░██                                    █████         \n" +
+                " ██░██░░██ ██ ░██  █████   ██████  ██████  ██████   ██░░░██  █████ \n" +
+                "░██░██ ░░███  ░██ ██░░░██ ██░░░░  ██░░░░  ░░░░░░██ ░██  ░██ ██░░░██\n" +
+                "░██░██  ░░█   ░██░███████░░█████ ░░█████   ███████ ░░██████░███████\n" +
+                "░██░██   ░    ░██░██░░░░  ░░░░░██ ░░░░░██ ██░░░░██  ░░░░░██░██░░░░ \n" +
+                "░██░██        ░██░░██████ ██████  ██████ ░░████████  █████ ░░██████\n" +
+                "░░ ░░         ░░  ░░░░░░ ░░░░░░  ░░░░░░   ░░░░░░░░  ░░░░░   ░░░░░░ \n");
+
+
+    }
+
+
+    @PostConstruct
+    public void init() {
+        StreamiMessageApi streamiMessageApi = new StreamiMessageApi();
+    }
+}

@@ -7,9 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jay-common-share" />
-        <module name="jay-common-bops" />
         <module name="jay-common" />
+        <module name="jay-iMessage" />
+        <module name="jay-common-bops" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jay-common" options="-parameters" />
+      <module name="jay-common-bops" options="-parameters" />
+      <module name="jay-common-share" options="-parameters" />
+      <module name="jay-iMessage" options="-parameters" />
+    </option>
   </component>
 </project>

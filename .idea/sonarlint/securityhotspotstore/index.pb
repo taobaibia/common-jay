@@ -1,8 +1,4 @@
 
-a
-1jay-common/src/main/java/org/common/jay/Main.java,8/b/8b23771db65aa86db80c32a2a4d04c7e73c21114
-g
-7jay-common-share/src/main/java/org/common/jay/Main.java,f/d/fd2a308b24fbb412f14e803d820eec81670b43cd
 B
 jay-common/pom.xml,0/b/0b4b3f28062556ff3bf6613871db6f6fb02ed4e2
 H
@@ -13,3 +9,7 @@ G
 jay-common-bops/pom.xml,b/7/b713a10e7404c07e8c9c067ea20c8917c21dce78
 {
 Kjay-common-bops/src/main/java/org/common/bops/CommonBopsWebApplication.java,9/c/9c50a4310b708f10cbd3fe0eece7495fc78da472
+n
+>jay-common/src/main/java/org/common/jay/CommonApplication.java,d/8/d802944998a8e265db47cf56b82b7f43c47ae2cd
+C
+jay-common-bops.iml,7/e/7e86a4c2a5ccb5232cf959636b9361d076b597ff
