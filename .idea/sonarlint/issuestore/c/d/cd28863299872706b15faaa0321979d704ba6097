@@ -1,0 +1,24 @@
+
+a	java:S112…"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+f
+java:S11924"KDefine a constant instead of duplicating this literal ", status: " 6 times.(ÁÂæŞüÿÿÿÿ
+b
+java:S11923"GDefine a constant instead of duplicating this literal "name: " 5 times.(³×¿—ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëÜµûÿÿÿÿ
+W
+java:S1075+"ARefactor your code to get this URI from a customizable parameter.(ÕÌÎµ
+V	java:S125,"<This block of commented-out lines of code should be removed.(Ä˜¯şÿÿÿÿ
+E	java:S1063"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ
+E	java:S106:"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ
+E	java:S106<"+Replace this use of System.out by a logger.(®”³ùÿÿÿÿÿ
+E	java:S106B"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ
+E	java:S106K"+Replace this use of System.out by a logger.(ØíÌ¥ûÿÿÿÿ
+E	java:S106V"+Replace this use of System.out by a logger.(°æÌÀıÿÿÿÿ
+E	java:S106Z"+Replace this use of System.out by a logger.(·ä†Öÿÿÿÿÿ
+E	java:S106g"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ
+@	java:S106n"+Replace this use of System.out by a logger.(ÆÀûı
+A	java:S106Ÿ"+Replace this use of System.out by a logger.(³–ñ
+R
+java:S2696 "6Make the enclosing method "static" or remove this set.(ú÷Àçúÿÿÿÿ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(£©äÙşÿÿÿÿ
+R	java:S125Å"<This block of commented-out lines of code should be removed.(úáÉœ

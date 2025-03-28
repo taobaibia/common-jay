@@ -1,0 +1,10 @@
+
+g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Ο¶½έ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ή―¨ψÿÿÿÿ8ΊΨ€µέ2
+G	java:S106""+Replace this use of System.out by a logger.(Òπ§Δ8ΎΩ2
+X	java:S1254"<This block of commented-out lines of code should be removed.(±ή•ξ8ΰΨΕέ2
+{
+java:S2142?"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€8Ω¶½έ2
+X	java:S125<"<This block of commented-out lines of code should be removed.(µγ¥Β8οΨλµέ2
+r
+java:S1128"PRemove this unused import 'com.common.jay.startBusiness.service.AIVoiceService'.(’»†έϊÿÿÿÿ8”λµέ2

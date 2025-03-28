@@ -1,0 +1,27 @@
+
+p
+java:S1192H"SUse already-defined constant 'ACCESS_KEY_ID' instead of duplicating its value here.(ŞÌßˆ8àÓâµİ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«‰õÏ8äÓâµİ2
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ò³•şÿÿÿÿ8šıæµİ2
+M
+java:S1172"+Remove this unused method parameter "text".(‰æËúşÿÿÿÿ8ëÓâµİ2
+G	java:S106"+Replace this use of System.out by a logger.(‚¿šø8ìÓâµİ2
+`
+java:S1854+">Remove this useless assignment to local variable "expireTime".(Ì’§¯ûÿÿÿÿ8íÓâµİ2
+V
+java:S1854*"9Remove this useless assignment to local variable "token".(Ùî‡8íÓâµİ2
+]
+java:S1172&";Remove these unused method parameters "text", "outputPath".(­âóşÿÿÿÿ8íÓâµİ2
+G
+java:S1481*"*Remove this unused "token" local variable.(Ùî‡8îÓâµİ2
+Q
+java:S1481+"/Remove this unused "expireTime" local variable.(Ì’§¯ûÿÿÿÿ8îÓâµİ2
+]	java:S125-"<This block of commented-out lines of code should be removed.(û‡‹Šüÿÿÿÿ8îÓâµİ2
+
+java:S1186@"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—¥Ûö8ğÓâµİ2
+l
+java:S1128
+"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8¨ıæµİ2
+`
+java:S1128"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8¨ıæµİ2

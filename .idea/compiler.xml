@@ -15,10 +15,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="jay-common" options="-parameters" />
-      <module name="jay-common-bops" options="-parameters" />
-      <module name="jay-common-share" options="-parameters" />
-      <module name="jay-iMessage" options="-parameters" />
+      <module name="jay-common" options="" />
+      <module name="jay-common-bops" options="" />
+      <module name="jay-common-share" options="" />
+      <module name="jay-iMessage" options="" />
     </option>
   </component>
 </project>

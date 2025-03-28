@@ -1,0 +1,35 @@
+
+h
+java:S1192š"LUse already-defined constant 'APPKEY' instead of duplicating its value here.(êÒŠƒøÿÿÿÿ
+M
+java:S2629R"7Use the built-in formatting to construct this argument.(Å“Ó˜
+r
+java:S2629‡"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(§Õ´
+s
+java:S2629‹"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Ø³Î“
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(î¹Âîÿÿÿÿÿ
+k
+java:S1845"PRename field "appKey" to prevent any misunderstanding/clash with field "APPKEY".(›×Æ¡ùÿÿÿÿ
+H
+java:S1135#"2Complete the task associated to this TODO comment.(Žø¹Í
+E	java:S106/"+Replace this use of System.out by a logger.(®¢—ôùÿÿÿÿ
+\
+java:S1075="ARefactor your code to get this URI from a customizable parameter.(ÁÚ÷êüÿÿÿÿ
+V	java:S125>"<This block of commented-out lines of code should be removed.(Ä˜¯Žþÿÿÿÿ
+E	java:S106E"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ
+W
+java:S3457R"AFormat specifiers should be used instead of string concatenation.(Å“Ó˜
+@	java:S106^"+Replace this use of System.out by a logger.(ÆÀûý
+Q	java:S125v"<This block of commented-out lines of code should be removed.(¨¶šª
+Q	java:S125"<This block of commented-out lines of code should be removed.(€ÅÚË
+W
+java:S3457‡"AFormat specifiers should be used instead of string concatenation.(§Õ´
+R
+java:S2696ˆ"6Make the enclosing method "static" or remove this set.(ãúÂøÿÿÿÿ
+X
+java:S3457‹"AFormat specifiers should be used instead of string concatenation.(Ø³Î“
+ˆ
+java:S1130˜"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ
+R	java:S125ž"<This block of commented-out lines of code should be removed.(ÊÆ‡õ
+zsecrets:S6336"\Make sure this Alibaba Cloud Access Key ID gets revoked, changed, and removed from the code.(æ³Ùúüÿÿÿÿ
+ysecrets:S6336"`Make sure this Alibaba Cloud Access Key Secret gets revoked, changed, and removed from the code.(Ž•Áï
