@@ -1,0 +1,7 @@
+server:
+  port: 30990
+
+imessage:
+  appKey: uSRgNo7JKuiwH1xM
+  token: c51cfaf85211422fa87a0298009b8a64
+  url: wss://nls-gateway-cn-beijing.aliyuncs.com/ws/v1

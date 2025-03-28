@@ -1,6 +1,6 @@
-server:
-  port: 8099
-
+spring:
+  profiles:
+    active: dev
 
 ## 配置在nacos中这里仅供本地调试使用
 #tulips:

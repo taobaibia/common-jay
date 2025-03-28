@@ -18,11 +18,11 @@ import org.springframework.web.bind.annotation.RestController;
  * @date ${DATE} ${TIME}
  */
 @SpringBootApplication
-@ImportResource({ "classpath*:/**/spring/*.xml" })
+@ImportResource({ "classpath*:/**/jay/*.xml" })
 @EnableFeignClients(basePackages = { "com.*" })
 @EnableAsync
 @RestController
-@ComponentScan(basePackages = { "com.*", "com.*.*" })
+@ComponentScan(basePackages = { "com.*", "com.*.*" ,"com.common.bops.*"})
 public class CommonBopsWebApplication {
     public static void main(String[] args) {
         TimeZone.setDefault(TimeZone.getTimeZone("GMT+8"));

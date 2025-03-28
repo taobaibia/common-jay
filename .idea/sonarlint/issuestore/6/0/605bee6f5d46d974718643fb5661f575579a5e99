@@ -1,22 +1,26 @@
 
-h	java:S112”"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ø²µİ2
+h	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ºÖÓİ2
 m
-java:S1192C"KDefine a constant instead of duplicating this literal ", status: " 6 times.(ÁÂæŞüÿÿÿÿ8Ü²µİ2
+java:S11921"KDefine a constant instead of duplicating this literal ", status: " 6 times.(ÁÂæŞüÿÿÿÿ8ºÖÓİ2
 i
-java:S1192B"GDefine a constant instead of duplicating this literal "name: " 5 times.(³×¿—ùÿÿÿÿ8Ü²µİ2
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëÜµûÿÿÿÿ8ß²µİ2
+java:S11920"GDefine a constant instead of duplicating this literal "name: " 5 times.(³×¿—ùÿÿÿÿ8ºÖÓİ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëÜµûÿÿÿÿ8‘ºÖÓİ2
 ^
-java:S1075:"ARefactor your code to get this URI from a customizable parameter.(ÕÌÎµ8™²µİ2
-]	java:S125;"<This block of commented-out lines of code should be removed.(Ä˜¯şÿÿÿÿ8™²µİ2
-L	java:S106B"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ8š²µİ2
-L	java:S106I"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ8›²µİ2
-L	java:S106K"+Replace this use of System.out by a logger.(®”³ùÿÿÿÿÿ8›²µİ2
-L	java:S106Q"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ8›²µİ2
-L	java:S106Z"+Replace this use of System.out by a logger.(ØíÌ¥ûÿÿÿÿ8œ²µİ2
-G	java:S106e"+Replace this use of System.out by a logger.(…»Ìƒ8²µİ2
-L	java:S106i"+Replace this use of System.out by a logger.(·ä†Öÿÿÿÿÿ8²µİ2
-L	java:S106v"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ8 ²µİ2
-G	java:S106}"+Replace this use of System.out by a logger.(ÆÀûı8¡²µİ2
-H	java:S106®"+Replace this use of System.out by a logger.(³–ñ8§²µİ2
+java:S1075("ARefactor your code to get this URI from a customizable parameter.(ÕÌÎµ8¯ºÖÓİ2
+]	java:S125)"<This block of commented-out lines of code should be removed.(Ä˜¯şÿÿÿÿ8¯ºÖÓİ2
+L	java:S1060"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ8¯ºÖÓİ2
+L	java:S1067"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ8°ºÖÓİ2
+L	java:S1069"+Replace this use of System.out by a logger.(®”³ùÿÿÿÿÿ8°ºÖÓİ2
+L	java:S106?"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ8°ºÖÓİ2
+L	java:S106H"+Replace this use of System.out by a logger.(ØíÌ¥ûÿÿÿÿ8±ºÖÓİ2
+G	java:S106S"+Replace this use of System.out by a logger.(…»Ìƒ8±ºÖÓİ2
+L	java:S106W"+Replace this use of System.out by a logger.(·ä†Öÿÿÿÿÿ8±ºÖÓİ2
+L	java:S106d"+Replace this use of System.out by a logger.(³×¿—ùÿÿÿÿ8²ºÖÓİ2
+G	java:S106k"+Replace this use of System.out by a logger.(ÆÀûı8²ºÖÓİ2
+H	java:S106¡"+Replace this use of System.out by a logger.(³–ñ8µºÖÓİ2
 Y
-java:S2696¯"6Make the enclosing method "static" or remove this set.(Ø÷¥€üÿÿÿÿ8§²µİ2
+java:S2696¢"6Make the enclosing method "static" or remove this set.(Ø÷¥€üÿÿÿÿ8µºÖÓİ2
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8ºÅÛÓİ2
+u
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íş¡şÿÿÿÿ8ºÅÛÓİ2

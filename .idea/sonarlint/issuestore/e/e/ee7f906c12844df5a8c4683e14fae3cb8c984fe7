@@ -1,10 +1,6 @@
 
-g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ï¶½ŠÝ2
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®Þ¯¨øÿÿÿÿ8ºØ€µÝ2
-G	java:S106""+Replace this use of System.out by a logger.(Òð§Ä8š¾žŸÙ2
-X	java:S1254"<This block of commented-out lines of code should be removed.(±Þ•î8àØÅŠÝ2
+g	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ü¶¥ÔÝ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®Þ¯¨øÿÿÿÿ8ß¶¥ÔÝ2
+G	java:S106""+Replace this use of System.out by a logger.(Òð§Ä8æ¶¥ÔÝ2
 {
-java:S2142?"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Ù¶½ŠÝ2
-X	java:S125<"<This block of commented-out lines of code should be removed.(µã¥Â8ïØëµÝ2
-r
-java:S1128"PRemove this unused import 'com.common.jay.startBusiness.service.AIVoiceService'.(’»†Ýúÿÿÿÿ8œ”ëµÝ2
+java:S2142<"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8è¶¥ÔÝ2

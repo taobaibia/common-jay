@@ -31,6 +31,7 @@
         <guava.version>31.1-jre</guava.version>
         <!-- 修改版本号为标准格式 -->
         <jay-common-share.version>1.0-SNAPSHOT</jay-common-share.version>
+        <jay-iMessage.versionn>1.0-SNAPSHOT</jay-iMessage.versionn>
         <jdk.version>1.8</jdk.version>
 
 
@@ -66,6 +67,7 @@
         <mybatis-spring.version>2.0.6</mybatis-spring.version>
         <spring-cloud-starter-openfeign>2.2.6.RELEASE</spring-cloud-starter-openfeign>
         <fastjson.version>1.2.83</fastjson.version>
+        <springfox-swagger2.version>2.7.0</springfox-swagger2.version>
 
     </properties>
 
@@ -78,6 +80,12 @@
                 <groupId>com.common.jay</groupId>
                 <artifactId>jay-common-share</artifactId>
                 <version>${jay-common-share.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.common.jay</groupId>
+                <artifactId>jay-iMessage</artifactId>
+                <version>${jay-iMessage.versionn}</version>
             </dependency>
 
             <!-- spring -->
@@ -125,6 +133,21 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
+            <!--swagger-ui-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox-swagger2.version}</version>
+                <scope>compile</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.mapstruct</groupId>
+                        <artifactId>mapstruct</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>

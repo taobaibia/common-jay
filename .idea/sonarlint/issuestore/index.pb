@@ -27,3 +27,7 @@ Sjay-iMessage/src/main/java/com/common/jay/startBusiness/service/AIVoiceService.
 Pjay-iMessage/src/main/java/com/common/jay/startBusiness/ImessageApplication.java,e/e/ee7f906c12844df5a8c4683e14fae3cb8c984fe7
 ‚
 Rjay-iMessage/src/main/java/com/common/jay/startBusiness/api/StreamiMessageApi.java,6/0/605bee6f5d46d974718643fb5661f575579a5e99
+{
+Kjay-common-bops/src/main/java/com/common/bops/CommonBopsWebApplication.java,3/1/31c917b0654997aff4ceadcad246edac894491e3
+~
+Njay-common-bops/src/main/java/com/common/bops/iMessage/iMessageController.java,b/7/b7006988efcdaf67aa174fac2e3a91c448bbe10c

@@ -7,7 +7,7 @@ r
 java:S2629‡"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(§Õ´
 s
 java:S2629‹"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Ø³Î“
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(î¹Âîÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ëÜµûÿÿÿÿ
 k
 java:S1845"PRename field "appKey" to prevent any misunderstanding/clash with field "APPKEY".(›×Æ¡ùÿÿÿÿ
 H
