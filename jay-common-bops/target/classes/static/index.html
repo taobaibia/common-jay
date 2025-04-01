@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spring Boot WebSocket Demo</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        input {
+            padding: 10px;
+            margin-right: 10px;
+            width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #messages {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+<h2>WebSocket 客户端</h2>
+<input type="text" id="messageInput" placeholder="输入消息">
+<button onclick="sendMessage()">发送</button>
+<div id="messages"></div>
+
+<script>
+    let socket;
+    let reconnectInterval = 5000; // 重连间隔时间，单位：毫秒
+
+    function connect() {
+        socket = new WebSocket('ws://localhost:30990/ws');
+
+        // 连接建立
+        socket.onopen = () => {
+            appendMessage('已连接到服务端');
+        };
+
+        // 接收消息
+        socket.onmessage = (event) => {
+            appendMessage('服务端回复: ' + event.data);
+        };
+
+        // 连接关闭
+        socket.onclose = () => {
+            appendMessage('连接已断开，尝试重连...');
+            setTimeout(connect, reconnectInterval);
+        };
+
+        // 连接错误
+        socket.onerror = (error) => {
+            appendMessage('连接出错: ' + error.message);
+        };
+    }
+
+    // 发送消息
+    function sendMessage() {
+        const input = document.getElementById('messageInput');
+        const message = input.value;
+        if (socket.readyState === WebSocket.OPEN) {
+            socket.send(message);
+            appendMessage('已发送: ' + message);
+            input.value = '';
+        } else {
+            appendMessage('连接未建立，无法发送消息');
+        }
+    }
+
+    // 显示消息
+    function appendMessage(message) {
+        const div = document.getElementById('messages');
+        div.innerHTML += `<p>${message}</p>`;
+        div.scrollTop = div.scrollHeight; // 滚动到最新消息
+    }
+
+    // 初始化连接
+    connect();
+</script>
+</body>
+</html>

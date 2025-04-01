@@ -1,0 +1,5 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(ÆÀûı8§ òÛİ2
+\
+java:S2479":Remove the non-escaped \u0009 character from this literal.(¶””šúÿÿÿÿ8§ òÛİ2
+X	java:S125*"<This block of commented-out lines of code should be removed.(ÑâÈ¾8¨ òÛİ2

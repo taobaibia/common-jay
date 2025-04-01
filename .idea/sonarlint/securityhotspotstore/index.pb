@@ -29,5 +29,7 @@ Pjay-iMessage/src/main/java/com/common/jay/startBusiness/ImessageApplication.jav
 Rjay-iMessage/src/main/java/com/common/jay/startBusiness/api/StreamiMessageApi.java,6/0/605bee6f5d46d974718643fb5661f575579a5e99
 {
 Kjay-common-bops/src/main/java/com/common/bops/CommonBopsWebApplication.java,3/1/31c917b0654997aff4ceadcad246edac894491e3
-~
-Njay-common-bops/src/main/java/com/common/bops/iMessage/iMessageController.java,b/7/b7006988efcdaf67aa174fac2e3a91c448bbe10c
+{
+Kjay-common-bops/src/main/java/com/common/bops/iMessage/dto/TextChatDTO.java,9/a/9a315c74add9b6011a684b098048d9ffa0cdd06f
+‰
+Yjay-common-bops/src/main/java/com/common/bops/iMessage/controller/iMessageController.java,4/e/4ecbe2e11a68c1f929997e0eb803d354f96a6f0f

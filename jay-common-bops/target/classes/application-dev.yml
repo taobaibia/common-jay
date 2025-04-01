@@ -3,5 +3,5 @@ server:
 
 imessage:
   appKey: uSRgNo7JKuiwH1xM
-  token: c51cfaf85211422fa87a0298009b8a64
+  token: 01ba2ee7dae441d6bc6f6caf62eada3c
   url: wss://nls-gateway-cn-beijing.aliyuncs.com/ws/v1
